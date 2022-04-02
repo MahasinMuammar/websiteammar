@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
 
     <title>Portofolio Ammar</title>
@@ -43,7 +44,7 @@
     <section class="jumbotron text-center">
       <img src="images/marr3.jpg" alt="Ammar" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Mahasin Muammar</h1>
-      <p class="lead">Graphic Design | Content Creator</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -63,14 +64,11 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
-            <p>Saya adalah seorang IT Support yang fokus pada technical & Networking. Spesialis saya terletak pada pembuatan jaringan komputer dan perakitan</p>
+          <div class="col-md-4" data-aos="fade-right" >
+            <p>saya seorang desain grafis tingkat pemula yang fleksibel menyediakan desain kreatif dan inovatif untuk bisnis, mahir dalam pengelolaan dan pengembangan ide dan konsep merek</p>
           </div>
-          <div class="col-md-4">
-            <p>Saya bisa bekerja baik secara individu maupun tim, 
-                disiplin, sesuai dengan adaptasi dan mau belajar untuk
-                mengembangkan skill yg saya punya untuk mendukung 
-                kemajuan perusahaan tempat saya bekerja.</p>
+          <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">
+            <p>membuat desain, dan berkoordinasi dengan klien untuk hasil yang optimal, berspesialisasi dalam memanfaatkan perangkat lunak untuk desain grafis situs web.</p>
           </div>
         </div>
       </div>
@@ -94,50 +92,50 @@
         </div>
         <div class="row">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duratio="500">
               <img src="images/flyer trijaya rock hits.jpg" class="card-img-top" alt="Projects 1" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Trijaya Rock Hits</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="50">
               <img src="images/FLYER POLEMIK ditiadakan 8 jan 22.jpg" class="card-img-top" alt="Projects 2" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Polemik Mnc Trijaya Information</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
               <img src="images/Trijaya Sport.jpg" class="card-img-top" alt="Projects 3" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Trijaya Sport Flyer</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
               <img src="images/pinksweets fix 1.png" class="card-img-top" alt="Projects 3" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Flyer global pinksweet</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duratio="500" data-aos-delay="100">
               <img src="images/Artboard.png" class="card-img-top" alt="Projects 3" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Little minang resto flyer</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duratio="500" data-aos-delay="100">
               <img src="images/flyer imlek harimau.png" class="card-img-top" alt="Projects 3" />
               <div class="card-body">
-                <p class="card-text">Imlek flyer 2022</p>
+                <p class="card-text">Ucapan selamat tahun baru Imlek 2022</p>
               </div>
             </div>
           </div>
@@ -201,6 +199,26 @@
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once:true,
+      duration: 2000,
+    });
+  </script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.lead', { duration: 2, delay: 1.5, text: 'Graphic Design | Content Creator'});
+      gsap.from('.jumbotron img', {duration: 1, y:-100, opacity: 0});
+      gsap.from('.display-4', {duration: 1.5, x:-50, opacity: 0, delay: 0.5, ease:'back'});
+    </script>
+
 
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbwXD5s5uvbnYJI1G-g2hWYevPtu0JkQO88X_uVxM3japhEwa8Jlk6HZiDe4UgSGODmXLw/exec'
